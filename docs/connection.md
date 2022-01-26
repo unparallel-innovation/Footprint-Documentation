@@ -12,6 +12,10 @@ Install the current sensors on the neutral and each phase and connect them to th
 
 <center>![footprint_connections](img/footprint_connections.png){width=60%}</center>
 
+For the supplied SCT013­000 current sensors, the red wire must be connected to the right and the white wire to the left, as shown bellow.
+
+<center>![current_clamp_wires](img/current_clamp_wires.jpg){width=60%}</center>
+
 Please note the arrows on top of the current transducers that indicate the reference direction of current flow.
 
 <center>![current_clamp_direction](img/current_clamp_direction.png){width=60%}</center>

@@ -6,6 +6,7 @@ site_author: Unparallel Innovation, Lda
 nav:
 - Introduction: index.md
 - Assembly / Connection:
+    - Flashing the SD Card: flashing.md
     - Connection Guide: connection.md
     - Internet Connection: internet_connection.md
     - Access Point: access_point.md

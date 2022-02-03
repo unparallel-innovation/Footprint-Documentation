@@ -2,47 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://unparallel-innovation.github.io/Footprint-Documentation/</loc>
-         <lastmod>2022-01-26</lastmod>
+         <lastmod>2022-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unparallel-innovation.github.io/Footprint-Documentation/access_point/</loc>
-         <lastmod>2022-01-26</lastmod>
+         <lastmod>2022-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unparallel-innovation.github.io/Footprint-Documentation/connection/</loc>
-         <lastmod>2022-01-26</lastmod>
+         <lastmod>2022-02-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/flashing/</loc>
+         <lastmod>2022-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unparallel-innovation.github.io/Footprint-Documentation/internet_connection/</loc>
-         <lastmod>2022-01-26</lastmod>
+         <lastmod>2022-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unparallel-innovation.github.io/Footprint-Documentation/dashboard/dashboard/</loc>
-         <lastmod>2022-01-26</lastmod>
+         <lastmod>2022-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unparallel-innovation.github.io/Footprint-Documentation/dashboard/mqtt/</loc>
-         <lastmod>2022-01-26</lastmod>
+         <lastmod>2022-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unparallel-innovation.github.io/Footprint-Documentation/dashboard/system/</loc>
-         <lastmod>2022-01-26</lastmod>
+         <lastmod>2022-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unparallel-innovation.github.io/Footprint-Documentation/dashboard/vpn/</loc>
-         <lastmod>2022-01-26</lastmod>
+         <lastmod>2022-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unparallel-innovation.github.io/Footprint-Documentation/dashboard/wifi/</loc>
-         <lastmod>2022-01-26</lastmod>
+         <lastmod>2022-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

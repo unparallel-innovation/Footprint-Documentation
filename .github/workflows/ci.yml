@@ -25,8 +25,9 @@ jobs:
         run: echo "VERSION=$(echo $GITHUB_REF_NAME | sed -n -E "s/$EXP/\1.\2.\3/p")" >> $GITHUB_ENV
       - name: Config git
         run: |
-          git config --global user.name MkDocs deploy
+          git config --global user.name ci-bot
           git config --global user.email cicd@unparallel.pt
+          git fetch origin gh-pages --depth=1
       - name: Deploy
         run: |
           mike deploy --push --update-aliases ${{ env.VERSION }} latest

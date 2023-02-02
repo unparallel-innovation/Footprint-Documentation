@@ -10,7 +10,6 @@ on:
       - 'v[0-9]+.[0-9]+.[0-9]+'
 env:
   EXP: '^v?(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$'
-  VERSION: $(echo $CI_COMMIT_TAG | sed -n -E "s/$EXP/\1.\2.\3/p")
 
 jobs:
   deploy:
@@ -20,5 +19,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
+      - name: Set env
+        run: echo "VERSION=$(echo ${GITHUB_REF#refs/*/} | sed -n -E "s/$EXP/\1.\2.\3/p")" >> $GITHUB_ENV
       - run: pip install mkdocs-material mike
-      - run: mike deploy --push --update-aliases $VERSION latest
+      - run: mike deploy --push --update-aliases ${{ env.VERSION }} latest

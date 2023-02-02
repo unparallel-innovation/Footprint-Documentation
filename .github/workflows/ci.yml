@@ -19,7 +19,15 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - name: Set env
-        run: echo "VERSION=$(echo ${GITHUB_REF#refs/*/} | sed -n -E "s/$EXP/\1.\2.\3/p")" >> $GITHUB_ENV
-      - run: pip install mkdocs-material mike
-      - run: mike deploy --push --update-aliases ${{ env.VERSION }} latest
+      - name: Install dependencies
+        run: pip install mkdocs-material mike
+      - name: Set version
+        run: echo "VERSION=$(echo $GITHUB_REF_NAME | sed -n -E "s/$EXP/\1.\2.\3/p")" >> $GITHUB_ENV
+      - name: Config git
+        run: |
+          git config --global user.name MkDocs deploy
+          git config --global user.email cicd@unparallel.pt
+      - name: Deploy
+        run: |
+          mike deploy --push --update-aliases ${{ env.VERSION }} latest
+          mike set-default --push latest

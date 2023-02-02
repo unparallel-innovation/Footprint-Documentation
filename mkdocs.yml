@@ -19,6 +19,7 @@ nav:
 
 theme:
     name: material
+    custom_dir: overrides
     features:
         - navigation.sections
 
@@ -27,5 +28,16 @@ markdown_extensions:
     - md_in_html
     - toc:
         toc_depth: 0
+
+extra:
+  version:
+    provider: mike
+    default: latest
+
+plugins:
+  - mike:
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
 
 copyright: Copyright &copy; 2021 <a href="https://www.unparallel.pt">UNPARALLEL Innovation, Lda</a>.

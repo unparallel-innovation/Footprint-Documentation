@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/1.0.1/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/access_point/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/1.0.1/access_point/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/connection/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/1.0.1/connection/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/flashing/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/1.0.1/flashing/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/internet_connection/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/1.0.1/internet_connection/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/dashboard/dashboard/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/1.0.1/dashboard/dashboard/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/dashboard/mqtt/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/1.0.1/dashboard/mqtt/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/dashboard/system/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/1.0.1/dashboard/system/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/dashboard/vpn/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/1.0.1/dashboard/vpn/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/dashboard/wifi/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <loc>https://unparallel-innovation.github.io/Footprint-Documentation/1.0.1/dashboard/wifi/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
